@@ -22,3 +22,4 @@
     - { role: sudo, tags: ['archusers'] }
     - { role: archweb, archweb_site: false, archweb_services: false, archweb_donor_import: true, archweb_mirrorcheck_locations: [5, 6] }
     - { role: fail2ban }
+    - { role: prometheus_exporters }

@@ -16,3 +16,4 @@
     - { role: archbuild }
     - { role: docker_image }
     - { role: fail2ban }
+    - { role: prometheus_exporters }
